@@ -12,4 +12,4 @@ export const setSessionStorage = (key, value) => {
     if (isClient) {
         setSessionStorage.setItem(key, JSON.stringify(value))
     }
-};
+};  
